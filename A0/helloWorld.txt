@@ -1,3 +1,5 @@
-hello World is a stupid command
+hello World to the world
+
+I am playing with git.
 
 
