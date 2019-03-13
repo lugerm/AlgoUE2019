@@ -7,14 +7,14 @@ using namespace std::chrono;
 //snake_case naming is used, Fibonacci-Beispiel
 
 
-int main()
+int main(int argc, char *argv[])
 {
     int number_input, term_0 = 0, term_1 = 1, next_term = 0;
 
     auto start = high_resolution_clock::now();
 
     cout << "Enter any natural and postivie number for the Fibonacci count: \n";
-    cin >> number_input;
+    std::cin >> number_input;
 
     cout << "Fibonacci Series: ";
 
